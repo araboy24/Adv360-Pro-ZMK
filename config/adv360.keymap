@@ -50,11 +50,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1       &kp N2                  &kp N3       &kp N4       &kp N5       &tog 1                                                    &mo 4       &kp N6       &kp N7   &kp N8     &kp N9    &kp N0    &hm F12 MINUS
-&kp TAB    &kp Q        &hm LC(W) W             &kp E        &hm LC(R) R  &hm LC(T) T  &kp PLUS                                                  &kp MINUS   &kp Y        &kp U    &kp I      &kp O     &kp P     &kp BSLH
-&kp ESC    &hm A LC(A)  &kp S                   &hm LC(D) D  &lt 2 F      &kp G        &kp EQUAL  &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &kp DOLLAR  &kp H        &lt 2 J  &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &hm LC(Z) Z  &hm LC(X) X             &hm LC(C) C  &hm LC(V) V  &kp B                              &kp HOME      &kp PG_UP                         &hm LC(N) N  &kp M    &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE    &hm LS(LC(LA(C))) CAPS  &kp LEFT     &kp RIGHT                 &kp BSPC   &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                &kp UP   &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
+&kp EQUAL  &kp N1       &kp N2                  &kp N3       &kp N4       &kp N5       &tog 1                                                    &mo 4          &kp N6       &kp N7   &kp N8     &kp N9    &kp N0    &hm F12 MINUS
+&kp TAB    &kp Q        &hm LC(W) W             &kp E        &hm LC(R) R  &hm LC(T) T  &kp PLUS                                                  &kp MINUS      &kp Y        &kp U    &kp I      &kp O     &kp P     &kp BSLH
+&kp ESC    &hm A LC(A)  &kp S                   &hm LC(D) D  &lt 2 F      &kp G        &kp EQUAL  &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &kp DOLLAR     &kp H        &lt 2 J  &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT  &hm LC(Z) Z  &hm LC(X) X             &hm LC(C) C  &hm LC(V) V  &kp B                              &kp HOME      &kp PG_UP                            &hm LC(N) N  &kp M    &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&mo 2      &kp GRAVE    &hm LS(LC(LA(C))) CAPS  &kp LEFT     &kp RIGHT                 &kp BSPC   &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &hm TAB SPACE               &kp UP   &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
