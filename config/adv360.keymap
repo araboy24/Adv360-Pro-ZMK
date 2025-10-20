@@ -71,11 +71,11 @@
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2     &kp F3     &kp F4     &kp F5               &kp F6     &tog 1                                                        &mo 4   &kp F7     &kp F8                  &kp F9              &kp F10                  &kp F11  &kp F12
-&trans  &trans     &kp LC(W)  &trans     &kp LC(R)            &kp LC(T)  &none                                                         &none   &trans     &kp LC(LEFT_ARROW)      &kp UP_ARROW        &kp LC(RIGHT_ARROW)      &trans   &trans
-&trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &hm LS(LC(F)) LC(F)  &trans     &none              &trans  &trans      &trans  &trans         &none   &trans     &kp LEFT_ARROW          &kp DOWN_ARROW      &kp RIGHT                &trans   &trans
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)            &trans                                &trans      &trans                         &kp LC(N)  &kp LS(LC(LEFT_ARROW))  &kp LS(UP_ARROW)    &kp LS(LC(RIGHT_ARROW))  &trans   &trans
-&trans  &trans     &trans     &trans     &trans                          &kp LC(BACKSPACE)  &trans  &trans      &trans  &kp LC(ENTER)  &trans             &kp LS(LEFT_ARROW)      &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)      &trans   &trans
+&kp F1  &kp F2     &kp F3     &kp F4     &kp F5               &kp F6     &tog 1                                                        &mo 4   &kp F7       &kp F8                  &kp F9              &kp F10                  &kp F11  &kp F12
+&trans  &trans     &kp LC(W)  &trans     &kp LC(R)            &kp LC(T)  &none                                                         &none   &trans       &kp LC(LEFT_ARROW)      &kp UP_ARROW        &kp LC(RIGHT_ARROW)      &trans   &trans
+&trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &hm LS(LC(F)) LC(F)  &trans     &none              &trans  &trans      &trans  &trans         &none   &kp LS(TAB)  &kp LEFT_ARROW          &kp DOWN_ARROW      &kp RIGHT                &kp TAB  &trans
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)            &trans                                &trans      &trans                         &kp LC(N)    &kp LS(LC(LEFT_ARROW))  &kp LS(UP_ARROW)    &kp LS(LC(RIGHT_ARROW))  &trans   &trans
+&trans  &trans     &trans     &trans     &trans                          &kp LC(BACKSPACE)  &trans  &trans      &trans  &kp LC(ENTER)  &trans               &kp LS(LEFT_ARROW)      &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)      &trans   &trans
             >;
         };
 
