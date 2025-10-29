@@ -13,7 +13,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <250>;
             quick_tap_ms = <175>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
@@ -49,11 +49,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL        &kp N1       &kp N2                  &kp N3           &kp N4       &kp N5       &tog 1                                                                                   &mo 4        &kp N6       &kp N7   &kp N8     &kp N9       &kp N0               &hm F12 MINUS
-&hm LS(TAB) TAB  &kp Q        &hm LC(W) W             &hm LC(SLASH) E  &hm LC(R) R  &hm LC(T) T  &thick_arrow                                                                             &thin_arrow  &kp Y        &kp U    &kp I      &kp O        &hm LC(P) P          &kp BSLH
-&kp ESC          &hm LC(A) A  &hm LC(S) S             &hm LC(D) D      &hm LC(F) F  &lt 2 G      &kp EQUAL      &kp LCTRL    &kp LALT             &kp LEFT_WIN             &kp RCTRL      &kp DOLLAR   &lt 2 H      &lt 2 J  &kp K      &hm LG(L) L  &hm LEFT_SHIFT SEMI  &kp SQT
-&kp LSHFT        &hm LC(Z) Z  &hm LC(X) X             &hm LC(C) C      &hm LC(V) V  &hm LC(B) B                              &kp LC(LA(DEL))      &hm PRINTSCREEN PG_UP                                &hm LC(N) N  &kp M    &kp COMMA  &kp DOT      &hm LC(FSLH) FSLH    &kp RSHFT
-&mo 2            &kp GRAVE    &hm LS(LC(LA(C))) CAPS  &kp LEFT         &kp RIGHT                 &kp BACKSPACE  &lt 2 ENTER  &kp DELETE           &hm LG(LS(S)) PAGE_DOWN  &hm TAB ENTER  &lt 3 SPACE               &kp UP   &kp DOWN   &kp LBKT     &kp RBKT             &mo 2
+&kp EQUAL        &kp N1               &hm F2 N2               &kp N3           &hm F4 NUMBER_4  &kp N5       &tog 1                                                                                 &mo 4        &kp N6       &kp N7   &kp N8            &kp N9           &kp N0               &hm F12 MINUS
+&hm LS(TAB) TAB  &kp Q                &hm LC(W) W             &hm LC(SLASH) E  &hm LC(R) R      &hm LC(T) T  &thick_arrow                                                                           &thin_arrow  &kp Y        &kp U    &hm LA(INSERT) I  &kp O            &hm LC(P) P          &kp BSLH
+&kp ESC          &hm LC(A) A          &hm LC(S) S             &hm LC(D) D      &hm LC(F) F      &lt 2 G      &kp EQUAL      &kp LCTRL    &kp LALT             &kp LEFT_WIN             &kp RCTRL    &kp DOLLAR   &lt 2 H      &lt 2 J  &kp K             &hm LG(L) L      &hm LEFT_SHIFT SEMI  &kp SQT
+&kp LSHFT        &hm LC(Z) Z          &hm LC(X) X             &hm LC(C) C      &hm LC(V) V      &hm LC(B) B                              &kp LC(LA(DEL))      &hm PRINTSCREEN PG_UP                              &hm LC(N) N  &kp M    &kp COMMA         &hm LC(DOT) DOT  &hm LC(FSLH) FSLH    &kp RSHFT
+&mo 2            &hm LC(GRAVE) GRAVE  &hm LS(LC(LA(C))) CAPS  &kp LEFT         &kp RIGHT                     &kp BACKSPACE  &lt 2 ENTER  &kp DELETE           &hm LG(LS(S)) PAGE_DOWN  &lt 2 ENTER  &lt 3 SPACE               &kp UP   &kp DOWN          &kp LBKT         &kp RBKT             &mo 2
             >;
         };
 
@@ -83,7 +83,7 @@
             display-name = "Mod";
             bindings = <
 &trans          &bt BT_SEL 0      &bt BT_SEL 1          &bt BT_SEL 2                   &bt BT_SEL 3                     &bt BT_SEL 4           &trans                                                   &trans       &trans           &trans          &trans           &trans         &trans                         &trans
-&trans          &kp UNDERSCORE    &hm GRAVE GRAVE       &hm SINGLE_QUOTE SINGLE_QUOTE  &hm DOUBLE_QUOTES DOUBLE_QUOTES  &kp COLON              &bootloader                                              &bootloader  &kp AMPERSAND    &kp EQUAL       &kp PLUS         &kp MINUS      &thin_arrow                    &trans
+&trans          &kp UNDERSCORE    &hm LC(GRAVE) GRAVE   &hm SINGLE_QUOTE SINGLE_QUOTE  &hm DOUBLE_QUOTES DOUBLE_QUOTES  &kp COLON              &bootloader                                              &bootloader  &kp AMPERSAND    &kp EQUAL       &kp PLUS         &kp MINUS      &thin_arrow                    &trans
 &studio_unlock  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LEFT_PARENTHESIS           &kp RIGHT_PARENTHESIS            &kp QUESTION           &trans       &trans  &trans      &bt BT_CLR  &trans      &trans       &kp EXCLAMATION  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN  &hm GREATER_THAN GREATER_THAN  &trans
 &trans          &hm PLUS PLUS     &hm UNDERSCORE MINUS  &hm ASTERISK ASTERISK          &hm LC(KP_DIVIDE) KP_DIVIDE      &hm BACKSLASH PERCENT                       &trans      &trans                               &kp PIPE         &kp DOLLAR      &kp COMMA        &kp PERIOD     &hm COLON SEMI                 &trans
 &kp LEFT_SHIFT  &trans            &trans                &trans                         &trans                                                  &trans       &trans  &trans      &trans      &bl BL_TOG  &trans                        &bl BL_INC      &bl BL_DEC       &trans         &trans                         &kp LEFT_SHIFT
