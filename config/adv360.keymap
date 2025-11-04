@@ -50,7 +50,7 @@
             display-name = "Base";
             bindings = <
 &kp EQUAL        &kp N1               &hm F2 N2               &kp N3           &hm F4 NUMBER_4  &kp N5       &tog 1                                                                                 &mo 4        &kp N6       &kp N7   &kp N8            &kp N9           &kp N0               &hm F12 MINUS
-&hm LS(TAB) TAB  &kp Q                &hm LC(W) W             &hm LC(SLASH) E  &hm LC(R) R      &hm LC(T) T  &thick_arrow                                                                           &thin_arrow  &kp Y        &kp U    &hm LA(INSERT) I  &kp O            &kp P                &kp BSLH
+&hm LS(TAB) TAB  &kp Q                &hm LC(W) W             &hm LC(SLASH) E  &hm LC(R) R      &hm LC(T) T  &thick_arrow                                                                           &thin_arrow  &kp Y        &kp U    &hm LA(INSERT) I  &kp O            &hm P LC(P)          &kp BSLH
 &kp ESC          &hm LC(A) A          &hm LC(S) S             &hm LC(D) D      &hm LC(F) F      &lt 2 G      &kp EQUAL      &kp LCTRL    &kp LALT             &kp LEFT_WIN             &kp RCTRL    &kp DOLLAR   &lt 2 H      &lt 2 J  &kp K             &hm LG(L) L      &hm LEFT_SHIFT SEMI  &kp SQT
 &kp LSHFT        &hm LC(Z) Z          &hm LC(X) X             &hm LC(C) C      &hm LC(V) V      &hm LC(B) B                              &kp LC(LA(DEL))      &hm PRINTSCREEN PG_UP                              &hm LC(N) N  &kp M    &kp COMMA         &hm LC(DOT) DOT  &hm LC(FSLH) FSLH    &kp RSHFT
 &mo 2            &hm LC(GRAVE) GRAVE  &hm LS(LC(LA(C))) CAPS  &kp LEFT         &kp RIGHT                     &kp BACKSPACE  &lt 2 ENTER  &kp DELETE           &hm LG(LS(S)) PAGE_DOWN  &lt 2 ENTER  &lt 3 SPACE               &kp UP   &kp DOWN          &kp LBKT         &kp RBKT             &mo 2
@@ -73,7 +73,7 @@
             bindings = <
 &kp F1  &kp F2     &kp F3     &kp F4     &kp F5               &kp F6     &tog 1                                                        &mo 4   &kp F7       &kp F8                  &kp F9              &kp F10                  &kp F11        &kp F12
 &trans  &trans     &kp LC(W)  &trans     &kp LC(R)            &kp LC(T)  &none                                                         &none   &trans       &kp LC(LEFT_ARROW)      &kp UP_ARROW        &kp LC(RIGHT_ARROW)      &kp LC(P)      &trans
-&trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &hm LS(LC(F)) LC(F)  &trans     &none              &trans  &trans      &trans  &trans         &none   &kp LS(TAB)  &kp LEFT_ARROW          &kp DOWN_ARROW      &kp RIGHT                &kp TAB        &trans
+&trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &hm LS(LC(F)) LC(F)  &kp LC(G)  &none              &trans  &trans      &trans  &trans         &none   &kp LS(TAB)  &kp LEFT_ARROW          &kp DOWN_ARROW      &kp RIGHT                &kp TAB        &trans
 &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)            &kp LC(B)                             &trans      &trans                         &kp LC(N)    &kp LS(LC(LEFT_ARROW))  &kp LS(UP_ARROW)    &kp LS(LC(RIGHT_ARROW))  &kp LC(SLASH)  &trans
 &trans  &trans     &trans     &trans     &trans                          &kp LC(BACKSPACE)  &trans  &trans      &trans  &kp LC(ENTER)  &trans               &kp LS(LEFT_ARROW)      &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)      &trans         &trans
             >;
